@@ -11,21 +11,22 @@
  *  All rights reserved internationally.
  *
  */
-package com.zeleo.data;
+package com.zeleo.exceptions;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class ConsequenceUser {
-	private String email;
-	private String firstName;
-	private String lastName;
-	private List<ConsequencePhone> phoneNumbers = new ArrayList<>();
+/**
+ * This is thrown if you are calling anything that needs specific environment variables. Call getMissingVariables() 
+ * to get a List<String> of any variables that are expected but missing.
+ * 
+ * @author benjamin.flynn@zeleoinc.com
+ * @version 1.0.1
+ */
+public class ZeleoMissingVariablesException extends Exception {
+	private static final long serialVersionUID = -4562308597854651721L;
+	@Getter @Setter private List<String> missingVariables = new ArrayList<>();
 }
