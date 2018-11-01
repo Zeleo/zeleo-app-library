@@ -127,8 +127,8 @@ public class ZeleoApplication {
      */
     public static String extractToken(final String token, final String jwtToken, final String issuer, final String audience, final String subject) throws InvalidJwtException {
     	String json = "";
-    	final Key key = JWTUtil.generateAESKey(JWTUtil.base64Decode(token));
-    	JwtClaims claims = JWTUtil.validateTokenAndProcessClaims(key, issuer, audience, subject, ZeleoApplication.CLOCK_SKEW, jwtToken);
+    	final Key key = JWTUtil.generateAESKey(JWTUtil.base64Decode(jwtToken));
+    	JwtClaims claims = JWTUtil.validateTokenAndProcessClaims(key, issuer, audience, subject, ZeleoApplication.CLOCK_SKEW, token);
     	final Map<String, List<Object>> claimsMap = claims.flattenClaims();
     	json = claimsMap.get("json").get(0).toString();
     	return json;
