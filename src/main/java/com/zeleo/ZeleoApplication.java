@@ -100,7 +100,7 @@ public class ZeleoApplication {
 	 * ZELEO_AUDIENCE
 	 * ZELEO_SUBJECT
 	 * 
-	 * @param Extract the JWT token.
+	 * @param token The token to extract.
 	 * @return The json string.
 	 * @throws InvalidJwtException Thrown if there's an error extracting the token.
 	 * @throws ZeleoMissingVariablesException Thrown if the required environment variable sare missing.
@@ -123,7 +123,7 @@ public class ZeleoApplication {
      * @param audience The audience field you defined in the Zeleo Development tab.
      * @param subject The subject field you defined in the Zeleo Development tab.
      * @return The json string extracted from the JWT token.
-     * @throws InvalidJwtException
+     * @throws InvalidJwtException If the JWT token is invalid.
      */
     public static String extractToken(final String token, final String jwtToken, final String issuer, final String audience, final String subject) throws InvalidJwtException {
     	String json = "";

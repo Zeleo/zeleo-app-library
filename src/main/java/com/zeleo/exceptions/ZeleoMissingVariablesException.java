@@ -21,7 +21,7 @@ import lombok.Setter;
 
 /**
  * This is thrown if you are calling anything that needs specific environment variables. Call getMissingVariables() 
- * to get a List<String> of any variables that are expected but missing.
+ * to get a List of any variables that are expected but missing.
  * 
  * @author benjamin.flynn@zeleoinc.com
  * @version 1.0.1
