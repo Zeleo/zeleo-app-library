@@ -16,6 +16,10 @@
   	</license>
   </licenses>
   
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
   <developers>
   	<developer>
   		<email>benjamin.flynn@zeleoinc.com</email>
