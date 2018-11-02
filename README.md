@@ -1,4 +1,4 @@
-![Zeleo Logo](https://www.zeleo.io/assets/Zeleo_Blue.png "Zeleo Logo")
+->![Zeleo Logo](https://www.zeleo.io/assets/Zeleo_Blue.png "Zeleo Logo")<-
 
 # Zeleo Application Library
 This is the Java client library for creating Zeleo Applications. You can read the details on how to do this in the Development section [here](https://zeleo.github.io/zeleo/).
