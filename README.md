@@ -52,7 +52,7 @@ Learn more about the JWT security system for Zeleo [here](http://zeleo.github.io
 Also read [this](http://zeleo.github.io/zeleo/development/authorization/) to learn how to handle the authentication of the other system your service will undoubtedly be interacting with.
 
 ## Methods
-The entry point for all methods is the ZeleoApplication class. It exposes a handful of static methods that help you converse with the Zeleo platform. Note that each function an overload that allows you to specify the JWT variables or let the library get them from environment variables.
+The entry point for all methods is the ZeleoApplication class. It exposes a handful of static methods that help you converse with the Zeleo platform. Note that each function has an overload that allows you to specify the JWT variables or let the library get them from environment variables.
 
 ```java
 /**
