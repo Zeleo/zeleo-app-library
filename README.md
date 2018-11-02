@@ -216,9 +216,9 @@ Read more [here](http://zeleo.github.io/zeleo/development/consequence/).
 public void handleConsequence(final String jwtToken) {
   try {
     ConsequenceData consequence = ZeleoApplication.getZeleoConsequence(jwtToken, TOKEN, ISSUER, AUDIENCE, SUBJECT);
-	// Do whatever you need to do with the ConsequenceData object.
+    // Do whatever you need to do with the ConsequenceData object.
   } catch (InvalidJwtException | IOException e) {
-	context.getLogger().log(ex.getMessage());
+    context.getLogger().log(ex.getMessage());
   }
 }
 ```
