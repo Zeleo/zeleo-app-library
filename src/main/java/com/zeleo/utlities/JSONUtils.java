@@ -54,6 +54,9 @@ public class JSONUtils {
 
         // Don't get confused by empty lists.
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        
+        // I'm looking at you, Google...
+        mapper.configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY, true);
 
         // Null values are expected and are ok. Don't freak out about this either.
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL); // no more null-valued properties
