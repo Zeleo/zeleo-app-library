@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.zeleo.application</groupId>
   <artifactId>zeleo-application-library</artifactId>
-  <version>1.1.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Zeleo Application Library</name>
   <description>Library handles standard operations to simplify Zeleo Application creation, and defines objects that come from the Zeleo platform.</description>
@@ -78,6 +78,15 @@
 	        </goals>
 	      </execution>
 	    </executions>
+	  </plugin>
+	  <plugin>
+	    <groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-release-plugin</artifactId>
+	    <version>2.5.3</version>
+	    <configuration>
+	        <localCheckout>true</localCheckout>
+	        <pushChanges>false</pushChanges>
+	    </configuration>
 	  </plugin>
 	  <plugin>
 	    <groupId>org.apache.maven.plugins</groupId>
