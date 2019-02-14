@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.zeleo.application</groupId>
   <artifactId>zeleo-application-library</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.3</version>
   <packaging>jar</packaging>
   <name>Zeleo Application Library</name>
   <description>Library handles standard operations to simplify Zeleo Application creation, and defines objects that come from the Zeleo platform.</description>
