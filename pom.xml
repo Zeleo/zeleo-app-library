@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.zeleo.application</groupId>
   <artifactId>zeleo-application-library</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.4</version>
   <packaging>jar</packaging>
   <name>Zeleo Application Library</name>
   <description>Library handles standard operations to simplify Zeleo Application creation, and defines objects that come from the Zeleo platform.</description>
@@ -38,7 +38,7 @@
   	<url>https://github.com/Zeleo/com.zeleo.application</url>
   	<connection>scm:git:git://github.com/Zeleo/com.zeleo.application.git</connection>
   	<developerConnection>scm:git:git@github.com:Zeleo/com.zeleo.application.git</developerConnection>
-    <tag>zeleo-application-library-1.0.3</tag>
+    <tag>zeleo-application-library-1.0.4</tag>
   </scm>
   
   <build>
