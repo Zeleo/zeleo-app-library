@@ -65,6 +65,16 @@ public class ConsequenceData {
 	private ConsequenceUser user;
 	
 	/**
+	 * If there was an authentication done by a team administrator for everyone, the token data will be here.
+	 */
+	private OAuth2TokenData teamAuthenticationToken;
+	
+	/**
+	 * Any authentication tokens for the target of this consequence will be here.
+	 */
+	private OAuth2TokenData userAuthenticationToken;
+	
+	/**
      * Gets the field by the name of the field. 
      * 
      * @param name The name to search for.
