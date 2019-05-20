@@ -4,7 +4,7 @@
   <groupId>io.zeleo.application</groupId>
   <artifactId>zeleo-application-library</artifactId>
   <name>Zeleo Application Library</name>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <description>Library handles standard operations to simplify Zeleo Application creation, and defines objects that come from the Zeleo platform.</description>
   <url>https://www.zeleo.io</url>
   <issueManagement>
@@ -29,7 +29,7 @@
   <scm>
     <connection>scm:git:git://github.com/Zeleo/com.zeleo.application.git</connection>
     <developerConnection>scm:git:git@github.com:Zeleo/com.zeleo.application.git</developerConnection>
-    <tag>zeleo-application-library-1.0.3</tag>
+    <tag>zeleo-application-library-1.0.4</tag>
     <url>https://github.com/Zeleo/com.zeleo.application</url>
   </scm>
   <build>
